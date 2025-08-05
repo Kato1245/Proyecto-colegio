@@ -137,3 +137,31 @@ button:hover {
   width: 80px;
   height: auto;
 }
+
+/* RESPONSIVE - para pantallas pequeñas */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Uno encima del otro */
+    height: auto;
+  }
+
+  .box-left, .box-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-left {
+    min-height: 50vh; /* Asegura que se vea bien el fondo */
+  }
+
+  .login-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  .logo {
+    width: 70px;
+    margin-bottom: 15px;
+  }
+}
