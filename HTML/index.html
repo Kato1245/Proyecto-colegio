@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GranCole - Login</title>
-  <link rel="stylesheet" href="../CSS/style.css"/>
-</head>
-<body>
-  <div class="container">
-    
-    <!-- Lado izquierdo -->
-    <div class="box-left">
-    </div>
-
-    <!-- Lado derecho -->
-     
-    <div class="box-right">
-
-      <div class="login-box">
-        
-        <img src="../IMG/logo-sena.png" alt="" class="logo">
-        <h1>Bienvenido a GranCole</h1>
-        <p>Inicia sesión para continuar</p>
-
-        <form>
-          <label>Usuario</label>
-          <input type="text" placeholder="0000000" />
-
-          <label>Contraseña</label>
-          <input type="password" placeholder="••••••••" />
-
-          <div class="forgot">
-            <a href="#">¿Olvidaste tu contraseña?</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GranCole - Login</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Lado izquierdo -->
+      <div class="box-left">
+        <div class="overlay">
+          <div class="left-content">
+            <h2>Grancole Pro</h2>
+            <p>Sistema de Gestión Educativa</p>
+            <h1>Gestiona tu institución educativa de manera inteligente</h1>
+            <p>
+              plataforma integral para administrar estudiantes, profesores
+              calificaciones, asistencia y mucho más en un solo lugar.
+            </p>
+            <ul>
+              <li>Gestión completa de estudiantes y profesores</li>
+              <li>Sistema de calificaciones y boletines</li>
+              <li>Control de asistencia en tiempo real</li>
+              <li>Comunicación integrada y foros</li>
+            </ul>
+            <div class="stats">
+              <p><strong>1,234+</strong> Estudiantes</p>
+              <p><strong>45+</strong> Cursos</p>
+              <p><strong>98%</strong> Certificaciones</p>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <button type="submit">Iniciar sesión</button>
+      <!-- Lado derecho -->
 
-          <p class="small-text">¿No tienes cuenta? <a href="#">Contacta al administrador</a></p>
-          <p class="small-text">&copy;2025 GranCole Pro. Todos los derechos reservados.</p>
-        </form>
+      <div class="box-right">
+        <div class="login-box">
+          <img src="../IMG/logo-sena.png" alt="" class="logo" />
+          <h1>Bienvenido a GranCole</h1>
+          <p>Inicia sesión para continuar</p>
+
+          <form>
+            <label>Usuario</label>
+            <input type="text" placeholder="0000000" />
+
+            <label>Contraseña</label>
+            <input type="password" placeholder="••••••••" />
+
+            <div class="forgot">
+              <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <button type="submit">Iniciar sesión</button>
+
+            <p class="small-text">
+              ¿No tienes cuenta? <a href="#">Contacta al administrador</a>
+            </p>
+            <p class="small-text">
+              &copy;2025 GranCole Pro. Todos los derechos reservados.
+            </p>
+          </form>
+        </div>
       </div>
     </div>
-
-  </div>
-</body>
+  </body>
 </html>
