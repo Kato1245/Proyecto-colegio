@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor general */
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row; /* Por defecto: lado a lado */
+}
+
+/* Lado derecho */
+.box-right {
+  width: 50%;
+  background-color: #cce3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+/* Formulario */
+.login-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1f60ff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003ccc;
+}
+
+.forgot {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.small-text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Imagen del escudo */
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 80px;
+  height: auto;
+}
+
